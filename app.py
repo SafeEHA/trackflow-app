@@ -3,7 +3,7 @@ import time
 
 app = Flask(__name__)
 
-ROUTE_ENGINE_VERSION = "3.1.0"
+ROUTE_ENGINE_VERSION = "3.2.0"
 DEPLOY_TIMESTAMP = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
 DASHBOARD_HTML = """<!DOCTYPE html>
